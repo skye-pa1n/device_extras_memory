@@ -23,6 +23,11 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     pm.sleep_mode=1
 
+# Dexopt
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    pm.dexopt.first-boot=quicken \
+    pm.dexopt.bg-dexopt=everything
+
 # Render
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.cpurend.vsync=false
