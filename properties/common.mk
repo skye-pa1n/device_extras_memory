@@ -19,6 +19,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.sdha_apps_bg_min=8
 endif
 
+# Deep Sleep
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    pm.sleep_mode=1
+
 # Render
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.cpurend.vsync=false
